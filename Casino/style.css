@@ -336,7 +336,8 @@ button {
             background: #8921c6;
         }
         .color-slice{
-            background: rgba(132, 131, 184, 0.8);
+            color: black;
+            background: rgba(214, 165, 86, 0.8);
             backdrop-filter: blur(5px);
         }
         .lista-reglas{
