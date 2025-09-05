@@ -1,5 +1,5 @@
 body{
-    background-color: rgba(123, 6, 111, 0.778);
+    background-color: #1a001f;
 }
 a{
     text-decoration: none;
@@ -24,19 +24,18 @@ a{
 .boton_saldo {
   color: #ecf0f1;
   font-size:25px;
-  background-color: #c90a0a;
-  border: 1px solid #ff000d;
-  border-radius: 5px;
-  cursor: pointer;
+  background-color: #ffc107e7;
+  border: 1px solid #ffc107;
+  border-radius: 5px;;
   padding: 10px;
-  box-shadow: 0px 6px 0px rgb(18, 17, 17);
-  transition: all 0.1s;
+  box-shadow: 0px 6px 0px #ffc107;
 }
 
 .boton_activo_saldo {
-  box-shadow: 0px 2px 0px #c487a8;
+  box-shadow: 0px 2px 0px #36303b;
   position: relative;
   top: 2px;
+  
 }
 /*.abajo_derecha{
     background-color: rgb(16, 7, 7);
@@ -68,8 +67,8 @@ button {
  text-transform: uppercase;
  padding: 1.25em 1.7em;
  justify-content: left;
- background: #13d42a;
- border: 2px solid #00ff1e;
+ background: #ffc107;
+ border: 2px solid #ddd913e0;
  left: 8%;
  border-radius: 0.75em;
  -webkit-transform-style: preserve-3d;
@@ -87,39 +86,43 @@ button {
  left: 0;
  right: 0;
  bottom: 0;
- background: #1ca010;
+ background: #ffc107dc;
  border-radius: inherit;
- -webkit-box-shadow: 0 0 0 2px #42a817, 0 0.625em 0 0 #d90a0a;
- box-shadow: 0 0 0 2px #64d31a, 0 0.625em 0 0 #0b8e2b;
+ -webkit-box-shadow: 0 0 0 2px #ffc107, 0 0.625em 0 0 #eeb40593;
+ box-shadow: 0 0 0 2px #ffc107d9, 0 0.625em 0 0 #eeb40593;
  -webkit-transform: translate3d(0, 0.75em, -1em);
  transform: translate3d(0, 0.75em, -1em);
  transition: transform 150ms cubic-bezier(0, 0, 0.58, 1), box-shadow 150ms cubic-bezier(0, 0, 0.58, 1), -webkit-transform 150ms cubic-bezier(0, 0, 0.58, 1), -webkit-box-shadow 150ms cubic-bezier(0, 0, 0.58, 1);
 }
 
 .button_apuesta:hover {
- background: #40ba08;
+ background: #ffc107;
  -webkit-transform: translate(0, 0.25em);
  transform: translate(0, 0.25em);
 }
 
 .button_apuesta:hover::before {
- -webkit-box-shadow: 0 0 0 2px #3fbf28, 0 0.5em 0 0 #63dc17;
- box-shadow: 0 0 0 2px #5cdd07, 0 0.5em 0 0 #20db0f;
+ -webkit-box-shadow: 0 0 0 2px #ffc107, 0 0.5em 0 0 #eeb40593;
+ box-shadow: 0 0 0 2px #ffc107, 0 0.5em 0 0 #eeb40593;
  -webkit-transform: translate3d(0, 0.5em, -1em);
  transform: translate3d(0, 0.5em, -1em);
 }
 
 .button_apuesta:active {
- background: #19db12;
+ background: #0c0c0c;
  -webkit-transform: translate(0em, 0.75em);
  transform: translate(0em, 0.75em);
 }
 
 .button_apuesta:active::before {
- -webkit-box-shadow: 0 0 0 2px #2fdc14, 0 0 #38cd12;
- box-shadow: 0 0 0 2px #24b417, 0 0 #22c111;
+ -webkit-box-shadow: 0 0 0 2px #ffc107, 0 0 #0c0c0c;
+ box-shadow: 0 0 0 2px #eeb40569, 0 0 #0c0c0c;
  -webkit-transform: translate3d(0, 0, -1em);
  transform: translate3d(0, 0, -1em);
+}
+.inhabilitado{
+    pointer-events: none;
+   
 }
 .medio_abajo{
     width:100%;
@@ -169,7 +172,7 @@ button {
     width: 100%;
     height: 15vh;
     
-    background-color: rgba(78, 6, 0, 0.5);
+   
     
     position: fixed;
     right: 0;
@@ -275,7 +278,7 @@ button {
             transform: translateY(-50%);
             border-radius: 10px;
             padding: 10px;
-            box-shadow: 0 0 15px rgba(39, 44, 138, 0.5);
+            box-shadow: 0 0 15px #ffc107;
             width: auto;
             max-width: 380px;
             max-height: 70vh;
@@ -291,7 +294,7 @@ button {
         }
         
         .tabla th, .tabla td {
-            border: 1px solid #39045f;
+            border: 1px solid #252129;
             padding: 6px 4px;
             text-align: center;
             word-wrap: break-word;
@@ -310,11 +313,11 @@ button {
         }
         
         .tabla tr:nth-child(odd) {
-            background-color: #bd1717de;
+            background-color: #b71111de;
         }
         
         .tabla td {
-            color: black;
+            color: #252129;
             font-weight: 500;
         }
         
@@ -328,16 +331,16 @@ button {
         }
         
         .tabla::-webkit-scrollbar-thumb {
-            background: #109f89;
+            background: #252129;
             border-radius: 10px;
         }
         
         .tabla::-webkit-scrollbar-thumb:hover {
-            background: #8921c6;
+            background: #252129;
         }
         .color-slice{
-            color: black;
-            background: rgba(214, 165, 86, 0.8);
+            color: white;
+            background: #221c2a;
             backdrop-filter: blur(5px);
         }
         .lista-reglas{
@@ -346,6 +349,6 @@ button {
             
         }
         .lista-terminos{
-            font-size: 0.9rem;
+            font-size: 0.98rem;
             padding: 10%;
         }
