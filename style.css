@@ -1,0 +1,449 @@
+body{
+    background-color: rgb(26, 0, 31) !important;
+}
+
+/*Formulario inicio de sesion, registrarse y recuperar contraseña*/
+
+.formulario-usuarios{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    margin: 30px auto; 
+    width: 40%;
+    background-color: rgb(52, 50, 50);
+    border-radius: 10px;
+    color: azure;
+}
+
+.inputs-formulario{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    justify-content: center;
+}
+
+.inputs-formulario input{
+    height: 35px;
+    border: 1px solid;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    color: #c0c0c0;
+}
+
+.formulario-usuarios button{
+    border-radius: 10px;
+    width: 80%;
+    height: 40px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+.terminos{
+    display: flex;
+    align-items: center !important;
+    height: 40px;
+}
+
+.terminos input{
+    margin-right: 5px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.opciones-extras{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+    color: #c0c0c0;
+}
+
+.modal-content{
+    background-color: rgb(44, 0, 51);
+}
+
+.modal-header{
+    background-color:rgb(255, 183, 0);
+    color: rgb(77, 0, 89);
+    border-color: rgb(255, 183, 0);
+    box-shadow: 0 0 15px rgba(255,183,0,0.4);
+}
+
+.modal-body{
+    color: #c0c0c0;
+}
+
+.modal-body input{
+    background-color:rgba(53, 12, 59, 1) !important; 
+    border-color:rgba(70, 36, 75, 1);
+    color: #c0c0c0 !important;
+}
+
+.modal-footer{
+    border-color:rgb(255, 183, 0);
+}
+
+.modal-footer .btn-secondary{
+    background-color: #d4b100 !important;
+    border-color: #d4b100;
+}
+
+.modal-footer .btn-primary{
+    background-color: #00c8c8 !important;
+    border-color: #00c8c8;
+}
+
+/*Fin formularios*/
+
+/*Ajustes NavBar*/
+
+nav{
+    box-shadow: rgba(0, 0, 0, 0.8) 0 8px 10px -1px, rgba(0, 0, 0, 0.5) 0 6px 10px -1px;
+}
+
+nav form #btnRegi:hover{
+    background-color: #d4b100;
+}
+
+nav form #btnIni:hover{
+    background-color: rgb(0, 119, 119);
+}
+
+#BusInput::placeholder{color:#c0c0c0;}
+
+#navbarSupportedContent li a{
+    color: #c0c0c0;
+    font-size: 18px;
+}
+
+.nav-item{
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+ul .nav-item:hover{
+    background-color: rgba(53, 12, 59, 1);
+}
+
+#userBox span{
+    color:#c0c0c0;
+}
+
+#userBox img{
+    cursor: pointer;
+    margin:10px
+}
+
+/*Fin NavBar*/
+
+:root {
+  --bg-deep: #1A001F;       
+  --card: #2C0033;           
+  --accent-yellow: #FFB700;  
+  --accent-cyan: #00D4D4;    
+  --text: #c0c0c0;           
+}
+
+.card {
+  background: var(--card);
+  color: var(--text);
+  border: 1px solid rgba(255,183,0,.25);
+  border-radius: 14px;
+}
+
+.card-header {
+  background: transparent;
+  border-bottom: 1px solid rgba(255,183,0,.25);
+  color: var(--accent-yellow);
+  font-weight: 600;
+}
+
+.btn-cyan {
+  background: var(--accent-cyan);
+  color: #1A001F;
+  border: none;
+}
+.btn-cyan:hover { filter: brightness(0.95); }
+
+.btn-yellow {
+  background: var(--accent-yellow);
+  color: #1A001F;
+  border: none;
+}
+.btn-yellow:hover { filter: brightness(0.95); }
+
+
+.chip {
+  display: inline-flex;
+  align-items: center;
+  gap: .35rem;
+  padding: .25rem .6rem;
+  border-radius: 999px;
+  background: rgba(255,183,0,.12);
+  border: 1px solid rgba(255,183,0,.35);
+  color: var(--accent-yellow);
+}
+
+.table-dark th, 
+.table-dark td {
+  color: #ddd;
+}
+
+.form-switch .form-check-input:checked {
+  background-color: var(--accent-cyan);
+  border-color: var(--accent-cyan);
+}
+
+.modal-content {
+  background: var(--card) !important;
+  color: var(--text);
+  border: 2px solid var(--accent-yellow);
+  border-radius: 14px;
+}
+
+.modal-header {
+  background: var(--accent-yellow);
+  color: #1A001F;
+}
+
+.form-control,
+.form-select {
+  background: #1b0a1f;
+  border: 1px solid rgba(255,255,255,.12);
+}
+
+.form-control input{
+  color: #c0c0c0 !important;
+}
+
+.form-control::placeholder{
+  color: #c0c0c0 !important;
+}
+
+/*Fin pagina usuario*/
+
+/*Juego de ruleta europea*/
+
+.medio_arriba{
+  width: 100%;
+  margin-top: 90px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.estado_apuesta{
+  background-color: black;
+  text-align: center;
+
+}
+
+.medio_arriba ul{
+  display: flex;
+  align-items: center;
+  list-style: none;
+  color: #c0c0c0;
+  font-size: 7px;
+
+}
+
+.medio_arriba ul li{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.ultimos_ganadores li{
+  color: white;
+  margin: 10px;
+}
+
+.boton_tiempo {
+  color: #ecf0f1;
+  font-size:18px;
+  border: 1px solid #ffc107;
+  border-radius: 5px;;
+  padding: 10px;
+  box-shadow: 0px 6px 0px #ffc107;
+}
+
+.centro{
+  margin-top: 30px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.centro .mesaJugar{
+
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.tabla{
+  border-radius: 10px;
+  padding: 10px;
+
+}
+
+.tabla table {
+  border-radius: 10px;
+  border-collapse: collapse;
+  font-size: 0.8rem;
+}
+        
+.tabla th, .tabla td {
+  border: 1px solid #252129;
+  padding: 6px 4px;
+  text-align: center;
+  word-wrap: break-word;
+}
+        
+.tabla th {
+  background-color: black;
+  color: white;
+  position: sticky;
+  top: 0;
+  font-size: 0.85rem;
+}
+        
+.tabla tr:nth-child(even) {
+  background-color: #11961e;
+}
+        
+.tabla tr:nth-child(odd) {
+  background-color: #b71111de;
+}
+        
+.tabla td {
+  color: #252129;
+  font-weight: 500;
+}
+        
+.tabla::-webkit-scrollbar {
+  width: 8px;
+}
+        
+.tabla::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 10px;
+}
+        
+.tabla::-webkit-scrollbar-thumb {
+  background: #252129;
+  border-radius: 10px;
+}
+        
+.tabla::-webkit-scrollbar-thumb:hover {
+  background: #252129;
+}
+
+.color-slice{
+  color: #c0c0c0 !important;
+  background-color: #1A001F !important;
+  backdrop-filter: blur(50px) !important;
+}
+
+.lista-reglas{
+  font-size: 1rem;
+  padding: 15%;
+            
+}
+
+.lista-terminos{
+  font-size: 0.98rem;
+  padding: 10%;
+}
+
+.medio_abajo{
+  margin-top: 30px;
+}
+
+.apostar_opciones{
+  display: flex;
+  align-items: center;
+  justify-content: space-around !important;
+}
+
+.boton_saldo {
+  align-content: center;
+  height: 60px;
+  background-color: #ffc107;
+  color: #ecf0f1;
+  font-size:20px;
+  border: 1px solid #ffc107;
+  border-radius: 10px;;
+  padding: 10px;
+  box-shadow: 0px 6px 0px #ffc107;
+}
+
+.button_apuesta{
+ font-weight: 600;
+ color: white;
+ text-transform: uppercase;
+ padding: 1.25em 1.7em;
+ justify-content: left;
+ background: #ffc107;
+ border: 2px solid #ddd913e0;
+ border-radius: 0.75em;
+ -webkit-transform-style: preserve-3d;
+ transform-style: preserve-3d;
+ -webkit-transition: background 150ms cubic-bezier(0, 0, 0.58, 1), -webkit-transform 150ms cubic-bezier(0, 0, 0.58, 1);
+ transition: transform 150ms cubic-bezier(0, 0, 0.58, 1), background 150ms cubic-bezier(0, 0, 0.58, 1), -webkit-transform 150ms cubic-bezier(0, 0, 0.58, 1);
+}
+
+.button_apuesta::before {
+ content: '';
+ width: 100%;
+ height: 100%;
+ top: 0;
+ left: 0;
+ right: 0;
+ bottom: 0;
+ background: #ffc107dc;
+ border-radius: inherit;
+ -webkit-box-shadow: 0 0 0 2px #ffc107, 0 0.625em 0 0 #eeb40593;
+ box-shadow: 0 0 0 2px #ffc107d9, 0 0.625em 0 0 #eeb40593;
+ -webkit-transform: translate3d(0, 0.75em, -1em);
+ transform: translate3d(0, 0.75em, -1em);
+ transition: transform 150ms cubic-bezier(0, 0, 0.58, 1), box-shadow 150ms cubic-bezier(0, 0, 0.58, 1), -webkit-transform 150ms cubic-bezier(0, 0, 0.58, 1), -webkit-box-shadow 150ms cubic-bezier(0, 0, 0.58, 1);
+}
+
+
+.button_apuesta:hover::before {
+ -webkit-box-shadow: 0 0 0 2px #ffc107, 0 0.5em 0 0 #eeb40593;
+ box-shadow: 0 0 0 2px #ffc107, 0 0.5em 0 0 #eeb40593;
+ -webkit-transform: translate3d(0, 0.5em, -1em);
+ transform: translate3d(0, 0.5em, -1em);
+}
+
+.button_apuesta:active {
+ background: #0c0c0c;
+ -webkit-transform: translate(0em, 0.75em);
+ transform: translate(0em, 0.75em);
+}
+
+.button_apuesta:active::before {
+ -webkit-box-shadow: 0 0 0 2px #ffc107, 0 0 #0c0c0c;
+ box-shadow: 0 0 0 2px #eeb40569, 0 0 #0c0c0c;
+ -webkit-transform: translate3d(0, 0, -1em);
+ transform: translate3d(0, 0, -1em);
+}
+
+.abajo ul{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.abajo ul button{
+  margin: 8px;
+}
+
